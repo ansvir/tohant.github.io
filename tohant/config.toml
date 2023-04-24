@@ -1,0 +1,4 @@
+baseURL = 'https://tohant.github.io/'
+languageCode = 'en-us'
+title = 'Tohant Com'
+theme = 'hugo-PaperMod-master'
