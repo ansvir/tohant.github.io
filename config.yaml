@@ -1,0 +1,28 @@
+baseURL: 'https://tohant.com/'
+languageCode: 'en-us'
+title: 'Tohant Com'
+theme: 'hugo-PaperMod-master'
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+menu:
+    main:
+        - identifier: Profile
+          name: Profile
+          url: /profile/
+          weight: 10
+        - identifier: Projects
+          name: Projects
+          url: /projects/
+          weight: 20
+        - identifier: Blog
+          name: Blog
+          url: /blog/
+          weight: 30
+
+params:
+  github: 'ansvir'
